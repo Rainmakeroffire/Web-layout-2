@@ -1,0 +1,39 @@
+@import url(/header/header.css);
+@import url(/main/main.css);
+@import url(/footer/footer.css);
+
+body {
+  max-width: 1920px;
+  background-color: #FDFDFB;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1166px;
+  min-width: 320px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  width: 205px;
+  height: 64px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: none;
+  padding: none;
+  margin: 0;
+  cursor: pointer;
+}
